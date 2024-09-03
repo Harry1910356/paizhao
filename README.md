@@ -1,7 +1,8 @@
 ```mermaid
 classDiagram
     class pedestal_ts_fit {
-        dadad
+        +String attribute1
+        -int attribute2
     }
     class FunctionB {
         +functionB()
