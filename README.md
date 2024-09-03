@@ -41,7 +41,7 @@ classDiagram
         output : change and value of plasma energy
         function: get energy loss due to ELMs
     }
-    direction TB
+
     pedestal_ts_default ..> pedestal_ts_fit : initialization
     subgraph HorizontalConnections
         pedestal_ts_fit --> pedestal_ts_plot : relationship
