@@ -2,9 +2,9 @@
 classDiagram
     class pedestal_ts_fit {
        attribute1 : String
-        attribute2 : int
+       
         method1() : void
-        method2(param : String) : int
+        
     }
     class FunctionB {
         +functionB()
