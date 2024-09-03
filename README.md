@@ -1,8 +1,10 @@
 ```mermaid
 classDiagram
     class pedestal_ts_fit {
-        +String attribute1
+      +String attribute1
         -int attribute2
+        +void method1()
+        -int method2(String param)
     }
     class FunctionB {
         +functionB()
@@ -16,7 +18,7 @@ classDiagram
     class FunctionE {
         +functionE()
     }
-
+    
     pedestal_ts_fit --> FunctionB : calls
     FunctionA --> FunctionC : calls
     FunctionB --> FunctionD : calls
