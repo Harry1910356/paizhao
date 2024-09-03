@@ -1,8 +1,8 @@
 ```mermaid
 classDiagram
     class pedestal_ts_fit {
-        attribute1 : String
-        method1 // 这里省略了括号，显示为普通文本
+        input : String
+        output // 这里省略了括号，显示为普通文本
     }
     class FunctionB {
         +functionB()
