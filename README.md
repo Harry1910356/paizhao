@@ -1,7 +1,8 @@
 ```mermaid
 classDiagram
     class pedestal_ts_fit {
-    dada     
+        dada
+            da
     }
     class FunctionB {
         +functionB()
