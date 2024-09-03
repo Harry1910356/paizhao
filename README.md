@@ -31,7 +31,7 @@ classDiagram
         output : T, Rho, P profiles after fitting
         function: get the elmy signal information 
     }
-    class detectOutliers.m {
+    class detectOutliers{
         input : out
         output : T, Rho, P profiles after fitting
         function: get the elmy signal information 
