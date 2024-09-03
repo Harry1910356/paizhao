@@ -44,6 +44,7 @@ classDiagram
     
     pedestal_ts_fit --> pedestal_ts_mtanhfit : calls
     pedestal_ts_mtanhfit --> Elmyfreq : calls
-    pedestal_ts_mtanhfit --> detectOutliers : calls
     pedestal_ts_mtanhfit --> dW_ELM_DML : calls
+    pedestal_ts_mtanhfit --> detectOutliers : calls
     pedestal_ts_mtanhfit --> mtanh_ped : calls
+    
