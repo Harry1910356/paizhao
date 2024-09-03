@@ -16,7 +16,7 @@ classDiagram
         +functionE()
     }
 
-    pedestal_ts_fit > FunctionB : calls
+    pedestal_ts_fit --> FunctionB : calls
     FunctionA --> FunctionC : calls
     FunctionB --> FunctionD : calls
     FunctionC --> FunctionD : calls
