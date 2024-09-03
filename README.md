@@ -41,6 +41,7 @@ classDiagram
         output : change and value of plasma energy
         function: get energy loss due to ELMs
     }
+    direction TB
     pedestal_ts_default ..> pedestal_ts_fit : initialization
     pedestal_ts_fit --> pedestal_ts_mtanhfit : calls
     pedestal_ts_mtanhfit --> Elmyfreq : calls
