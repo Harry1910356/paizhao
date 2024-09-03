@@ -2,7 +2,7 @@
 classDiagram
     class pedestal_ts_fit {
         dada
-            da
+           + da
     }
     class FunctionB {
         +functionB()
