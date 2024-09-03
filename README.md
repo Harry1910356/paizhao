@@ -3,7 +3,7 @@ classDiagram
     class pedestal_ts_fit {
        attribute1 : String
 
-        method1（）: void
+       method1（）: void
         
     }
     class FunctionB {
