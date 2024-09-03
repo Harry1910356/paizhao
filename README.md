@@ -4,12 +4,15 @@ classDiagram
         input : shot, time window, parameters
         output : T, Rho, P profiles after fitting
                  with fitting parameters
+        function:
     }
     class pedestal_ts_default {
-        +functionB()
+        input : None
+        output : T, Rho, P profiles after fitting
     }
     class FunctionC {
-        +functionC()
+        input : shot, time window, parameters
+        output : T, Rho, P profiles after fitting
     }
     class FunctionD {
         +functionD()
