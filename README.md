@@ -2,7 +2,7 @@
 classDiagram
     class pedestal_ts_fit {
         attribute1 : String
-        asdada()   void
+        asdada()  
     }
     class FunctionB {
         +functionB()
