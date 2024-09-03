@@ -2,7 +2,7 @@
 classDiagram
     class pedestal_ts_fit {
         input : String
-        input : String
+        output : String
         asdada()  
     }
     class FunctionB {
