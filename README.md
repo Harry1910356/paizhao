@@ -37,7 +37,7 @@ classDiagram
         function: get the elmy signal information 
     }
     class dW_ELM_DML {
-        input : out
+        input : shot,time window,plot or not 
         output : T, Rho, P profiles after fitting
         function: get the elmy signal information 
     }
