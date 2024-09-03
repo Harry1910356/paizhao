@@ -1,10 +1,10 @@
 ```mermaid
 classDiagram
     class pedestal_ts_fit {
-      +String attribute1
-        -int attribute2
-        +void method1()
-        -int method2(String param)
+       attribute1 : String
+        attribute2 : int
+        method1() : void
+        method2(param : String) : int
     }
     class FunctionB {
         +functionB()
