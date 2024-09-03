@@ -11,19 +11,39 @@ classDiagram
         output : the initial parameters
         function: set parameters for fitting
     }
-    class FunctionC {
+    class Elmyfreq {
         input : shot, time window, parameters
         output : T, Rho, P profiles after fitting
+        function: get the elmy signal information 
     }
-    class FunctionD {
-        +functionD()
+    class pedestal_ts_mtanhfit {
+        input : shot, time window, parameters
+        output : T, Rho, P profiles after fitting
+        function: get the elmy signal information 
     }
-    class FunctionE {
-        +functionE()
+    class mtanh_ped {
+        input : shot, time window, parameters
+        output : T, Rho, P profiles after fitting
+        function: get the elmy signal information 
+    }
+    class pedestal_ts_plot {
+        input : out
+        output : T, Rho, P profiles after fitting
+        function: get the elmy signal information 
+    }
+    class detectOutliers.m {
+        input : out
+        output : T, Rho, P profiles after fitting
+        function: get the elmy signal information 
+    }
+    class dW_ELM_DML {
+        input : out
+        output : T, Rho, P profiles after fitting
+        function: get the elmy signal information 
     }
     
     pedestal_ts_fit --> FunctionB : calls
-    FunctionA --> FunctionC : calls
+    FunctionA --> Elmyfreq : calls
     pedestal_ts_default --> FunctionD : calls
-    FunctionC --> FunctionD : calls
-    FunctionD --> FunctionE : calls
+    Elmyfreq --> pedestal_ts_mtanhfit : calls
+    pedestal_ts_mtanhfit --> mtanh_ped : calls
