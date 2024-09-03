@@ -5,7 +5,7 @@ classDiagram
         output : T, Rho, P profiles after fitting
                  with fitting parameters
     }
-    class FunctionB {
+    class pedestal_ts_default {
         +functionB()
     }
     class FunctionC {
@@ -20,6 +20,6 @@ classDiagram
     
     pedestal_ts_fit --> FunctionB : calls
     FunctionA --> FunctionC : calls
-    FunctionB --> FunctionD : calls
+    pedestal_ts_default --> FunctionD : calls
     FunctionC --> FunctionD : calls
     FunctionD --> FunctionE : calls
