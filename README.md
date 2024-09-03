@@ -47,4 +47,6 @@ classDiagram
     pedestal_ts_mtanhfit --> dW_ELM_DML : calls
     pedestal_ts_mtanhfit --> detectOutliers : calls
     pedestal_ts_mtanhfit --> mtanh_ped : calls
+    direction LR
+    pedestal_ts_fit --> pedestal_ts_plot : plot
     
