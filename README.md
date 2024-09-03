@@ -1,8 +1,8 @@
 ```mermaid
 classDiagram
     class pedestal_ts_fit {
-        input : String
-        output // 这里省略了括号，显示为普通文本
+        input : shot, time window, parameters
+        output : Temperature, density and other profiles after fitting, as well as fitting parameters
     }
     class FunctionB {
         +functionB()
