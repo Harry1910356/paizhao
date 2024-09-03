@@ -44,7 +44,7 @@ classDiagram
 
     pedestal_ts_default ..> pedestal_ts_fit : initialization
     subgraph HorizontalConnections
-        pedestal_ts_fit --> pedestal_ts_plot : relationship
+        pedestal_ts_fit -->|right| pedestal_ts_plot : relationship
     end
     pedestal_ts_fit --> pedestal_ts_mtanhfit : calls
     pedestal_ts_mtanhfit --> Elmyfreq : calls
