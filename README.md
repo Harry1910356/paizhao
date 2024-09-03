@@ -2,7 +2,7 @@
 classDiagram
     class pedestal_ts_fit {
         input : shot, time window, parameters
-        output : T, Rho and other profiles after fitting & fitting parameters
+        output : T, Rho, P profiles after fitting & fitting parameters
     }
     class FunctionB {
         +functionB()
